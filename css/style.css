@@ -254,25 +254,49 @@ body {
   color: #00277e;
 }
 
-.content1 {
-  position: absolute;
-  bottom: 50%;
-  left: 50%;
-}
-
-.content2 {
-  position: relative;
+.message {
   font-size: 70px;
   color: #00277e;
 }
 
-.card {
+.content1 {
+  width: 50%;
+  position: relative;
+  top: 200px;
+  left: 50%;
+}
+
+.content3 {
   width:75%;
-color:#000B62;
+  height: 200px;
+  background-color:#000B62;
 }
 
 @media screen and (max-width: 768px) {
-  .header-nav {
-    display: none;
+    .header-nav {
+      display: none;
+    }
 
+    .header-logo {
+    font-size: 35px;
+    color: #00277E;
+  }
+
+  .message {
+    margin: 40% 10px;
+    font-size: 55px;
+    color: #00277E;
+  }
+
+  .content1 {
+    position: static;
+    width: 90%;
+    left: 10%;
+  }
+
+  .content3 {
+    width:90%;
+    height: 200px;
+    background-color:#000B62;
+  }
 }
